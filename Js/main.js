@@ -63,10 +63,9 @@ function loadJSON(){
         });
         productList.innerHTML = html;
     })
-    .catch(error => {
-        alert(`User live server or local server`);
-        //URL scheme must be "http" or "https" for CORS request. You need to be serving your index.html locally or have your site hosted on a live server somewhere for the Fetch API to work properly.
-    })
+    // .catch(error => {
+    //     alert(`error en el Server del usuario o local server`);
+    // })
 }
 
 
